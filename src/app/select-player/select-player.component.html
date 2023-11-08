@@ -1,0 +1,47 @@
+<div class="game-container">
+  <!-- <img src="/assets/images/counter.gif" alt="GIF" class="gif"> -->
+  <circle-progress
+  [percent]="percent"
+  [radius]="50"
+  [outerStrokeWidth]="8"
+  [innerStrokeWidth]="0"
+  [outerStrokeColor]="'#2980b9'"
+  [innerStrokeColor]="'#00FFFFFF'"
+  [animation]="true"
+  [units]="''"
+  [animationDuration]="300"
+  [title]="remainingTime"
+  [titleColor]="'#2980b9'"
+  [titleFontSize]="'40'"
+  [showSubtitle]="false"
+  class="gif">
+  </circle-progress>
+  <div class="player1Section" *ngIf="player1 === false">
+    <img src="/assets/images/hand_animated.gif" alt="Hand" class="player1Hand">
+    <img src="/assets/images/button.png" alt="Button" class="player1Button">
+  </div>
+  <div class="player1" *ngIf="player1 === true">
+    <img src="/assets/images/peach.png" alt="Peach" class="player1Peach">
+  </div>
+  <div class="player2Section" *ngIf="player2 === false">
+    <img src="/assets/images/hand_animated.gif" alt="Hand" class="player2Hand">
+    <img src="/assets/images/button.png" alt="Button" class="player2Button">
+  </div>
+  <div class="player2" *ngIf="player2 === true">
+    <img src="/assets/images/toad.png" alt="Toad" class="player2Toad">
+  </div>
+  <div class="player3Section" *ngIf="player3 === false">
+    <img src="/assets/images/hand_animated.gif" alt="Hand" class="player3Hand">
+    <img src="/assets/images/button.png" alt="Button" class="player3Button">
+  </div>
+  <div class="player3" *ngIf="player3 === true">
+    <img src="/assets/images/mario.png" alt="Mario" class="player3Mario">
+  </div>
+  <div class="player4Section" *ngIf="player4 === false">
+    <img src="/assets/images/hand_animated.gif" alt="Hand" class="player4Hand">
+    <img src="/assets/images/button.png" alt="Button" class="player4Button">
+  </div>
+  <div class="player4" *ngIf="player4 === true">
+    <img src="/assets/images/luigi.png" alt="Luigi" class="player4Luigi">
+  </div>
+</div>

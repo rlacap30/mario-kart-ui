@@ -1,0 +1,19 @@
+.game-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.progress-bar-container-game {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.progress-bar-game {
+  height: 20px;
+  background-color: #e74c3c;
+  width: 0; 
+  border-radius: 4px;
+  transition: width 0.5s; 
+}

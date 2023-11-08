@@ -1,0 +1,128 @@
+.game-container {
+  background-image: url('/assets/images/startGame.png');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.gif {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+}
+
+.player1Button {
+  position: absolute;
+  bottom: 130px;
+  left: 8%;
+  width:150px;
+  height: 150px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.player1Peach {
+  position: absolute;
+  bottom: 150px;
+  left: 6%;
+  width:200px;
+  height: 200px;
+}
+
+.player1Hand {
+  position: absolute;
+  bottom: 230px;
+  left: 8%;
+  height: 150px;
+  width: 150px;
+  z-index: 2;
+}
+
+.player2Button {
+  position: absolute;
+  bottom: 130px;
+  left: 32%;
+  width:150px;
+  height: 150px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.player2Toad {
+  position: absolute;
+  bottom: 150px;
+  left: 30%;
+  width:200px;
+  height: 200px;
+}
+
+.player2Hand {
+  position: absolute;
+  bottom: 230px;
+  left: 32%;
+  height: 150px;
+  width: 150px;
+  z-index: 2;
+}
+
+.player3Button {
+  position: absolute;
+  bottom: 130px;
+  left: 56%;
+  width:150px;
+  height: 150px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.player3Mario {
+  position: absolute;
+  bottom: 150px;
+  left: 54%;
+  width:200px;
+  height: 200px;
+}
+
+.player3Hand {
+  position: absolute;
+  bottom: 230px;
+  left: 56%;
+  height: 150px;
+  width: 150px;
+  z-index: 2;
+}
+
+.player4Button {
+  position: absolute;
+  bottom: 130px;
+  left: 82%;
+  width:150px;
+  height: 150px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.player4Luigi {
+  position: absolute;
+  bottom: 150px;
+  left: 80%;
+  width:200px;
+  height: 200px;
+}
+
+.player4Hand {
+  position: absolute;
+  bottom: 230px;
+  left: 82%;
+  height: 150px;
+  width: 150px;
+  z-index: 2;
+}
+
